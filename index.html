@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FamBam Diner</title>
 </head>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+  
   <style>
 }
 </style>
@@ -54,6 +68,15 @@ body {
 </ul>
 
 <!-- Main content -->
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+  
 <h1>Placeholder.</h1>
 
 <p style="background-image: url('https://lh3.googleusercontent.com/p/AF1QipNqxc41uWwz35sINTanghO2NW4qxtISJ5_fpdbA=s680-w680-h510');">
